@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="mutualAuthTwo" />
+        <module name="myappbyquarkus" />
+        <module name="myappbyopenliberty" />
+        <module name="mutualAuthOne" />
+        <module name="myappbymicro" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mutualAuthOne" target="17" />
+      <module name="mutualAuthTwo" target="17" />
+      <module name="myappbymicro" target="11" />
+      <module name="myappbyopenliberty" target="11" />
+      <module name="myappbyquarkus" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mutualAuthOne" options="-parameters" />
+      <module name="mutualAuthTwo" options="-parameters" />
+      <module name="myappbyquarkus" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaMicroServicers.iml" filepath="$PROJECT_DIR$/.idea/JavaMicroServicers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MutualAuth/mutualAuthOne/mutualAuthOne.iml" filepath="$PROJECT_DIR$/MutualAuth/mutualAuthOne/mutualAuthOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MutualAuth/mutualAuthTwo/mutualAuthTwo.iml" filepath="$PROJECT_DIR$/MutualAuth/mutualAuthTwo/mutualAuthTwo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myappbymicro/myappbymicro.iml" filepath="$PROJECT_DIR$/myappbymicro/myappbymicro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myappbyopenliberty/myappbyopenliberty.iml" filepath="$PROJECT_DIR$/myappbyopenliberty/myappbyopenliberty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myappbyquarkus/myappbyquarkus.iml" filepath="$PROJECT_DIR$/myappbyquarkus/myappbyquarkus.iml" />
+    </modules>
+  </component>
+</project>
